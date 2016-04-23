@@ -521,7 +521,7 @@ namespace LeagueSharp.Common
             if (!dashData.IsBlink)
             {
                 //Mid air:
-                var endP = dashData.Path.Last();
+                var endP = dashData.Path.LastOrDefault();
                 var dashPred = GetPositionOnPath(
                     input, new List<Vector2> {input.Unit.ServerPosition.To2D(), endP}, dashData.Speed);
                 if (dashPred.Hitchance >= HitChance.High &&
@@ -548,7 +548,7 @@ namespace LeagueSharp.Common
                     }
                 }
 
-                result.CastPosition = dashData.Path.Last().To3D();
+                result.CastPosition = dashData.Path.LastOrDefault().To3D();
                 result.UnitPosition = result.CastPosition;
 
                 //Figure out where the unit is going.
