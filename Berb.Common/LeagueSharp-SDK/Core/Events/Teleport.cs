@@ -119,10 +119,7 @@ using EloBuddy;
                 }
                 else
                 {
-                    Console.WriteLine(
-                        @"Teleport type {0} with name {1} is not supported yet. Please report it!",
-                        args.RecallType,
-                        args.RecallName);
+                    //Console.WriteLine(@"Teleport type {0} with name {1} is not supported yet. Please report it!", args.RecallType, args.RecallName);
                 }
             }
             else
@@ -281,7 +278,7 @@ using EloBuddy;
                     duration = 4000;
                     break;
                 default:
-                    Console.WriteLine($"Recall {args.RecallName} is not supported yet. Please report it!");
+                    //Console.WriteLine($"Recall {args.RecallName} is not supported yet. Please report it!");
                     break;
             }
 
