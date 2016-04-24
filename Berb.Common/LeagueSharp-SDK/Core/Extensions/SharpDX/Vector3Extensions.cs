@@ -354,7 +354,7 @@ namespace LeagueSharp.SDK
         /// <param name="vector3">Extended SharpDX Vector2</param>
         /// <param name="angle">Angle (in radians)</param>
         /// <returns>Rotated Vector3</returns>
-        public static Vector3 Rotated(this Vector3 vector3, float angle)
+        public static Vector3 LSRotated(this Vector3 vector3, float angle)
         {
             var cos = Math.Cos(angle);
             var sin = Math.Sin(angle);

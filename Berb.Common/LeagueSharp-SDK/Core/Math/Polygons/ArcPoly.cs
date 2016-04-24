@@ -126,11 +126,11 @@ namespace LeagueSharp.SDK.Polygons
             this.Points.Clear();
 
             var outRadius = (this.Radius + offset) / (float)Math.Cos(2 * Math.PI / this.quality);
-            var side1 = this.EndPos.Rotated(-this.Angle * 0.5f);
+            var side1 = this.EndPos.LSRotated(-this.Angle * 0.5f);
 
             for (var i = 0; i <= this.quality; i++)
             {
-                var cDirection = side1.Rotated(i * this.Angle / this.quality).LSNormalized();
+                var cDirection = side1.LSRotated(i * this.Angle / this.quality).LSNormalized();
                 this.Points.Add(
                     new Vector2(
                         this.StartPos.X + (outRadius * cDirection.X),

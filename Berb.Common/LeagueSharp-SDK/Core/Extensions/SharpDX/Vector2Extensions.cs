@@ -605,7 +605,7 @@ using EloBuddy;
         /// <param name="vector2">Extended SharpDX Vector2</param>
         /// <param name="angle">Angle (in radians)</param>
         /// <returns>Rotated Vector2</returns>
-        public static Vector2 Rotated(this Vector2 vector2, float angle)
+        public static Vector2 LSRotated(this Vector2 vector2, float angle)
         {
             var cos = Math.Cos(angle);
             var sin = Math.Sin(angle);

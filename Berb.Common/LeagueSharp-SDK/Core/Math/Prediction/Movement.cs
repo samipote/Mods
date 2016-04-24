@@ -283,8 +283,8 @@ namespace LeagueSharp.SDK
                             if (alpha > 30 && alpha < 180 - 30)
                             {
                                 var beta = (float)Math.Asin(input.RealRadius / p.Distance(input.From));
-                                var cp1 = input.From.ToVector2() + (p - input.From.ToVector2()).Rotated(beta);
-                                var cp2 = input.From.ToVector2() + (p - input.From.ToVector2()).Rotated(-beta);
+                                var cp1 = input.From.ToVector2() + (p - input.From.ToVector2()).LSRotated(beta);
+                                var cp2 = input.From.ToVector2() + (p - input.From.ToVector2()).LSRotated(-beta);
 
                                 pos = cp1.LSDistanceSquared(pos) < cp2.LSDistanceSquared(pos) ? cp1 : cp2;
                             }
