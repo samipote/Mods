@@ -1,0 +1,12 @@
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\obj\Debug\myAddon.csprojResolveAssemblyReference.cache
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\myAddon.exe.config
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\myAddon.exe
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\myAddon.pdb
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\EloBuddy.dll
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\EloBuddy.SDK.dll
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\SharpDX.dll
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\bin\Debug\EloBuddy.Sandbox.dll
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\obj\Debug\myAddon.exe
+C:\Users\KEVEN\Documents\SharpDevelop Projects\myAddon\myAddon\obj\Debug\myAddon.pdb
