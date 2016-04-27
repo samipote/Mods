@@ -17,7 +17,7 @@ namespace AddonTemplate.Modes
 		private float QMana = ObjectManager.Player.Spellbook.GetSpell(SpellSlot.Q).SData.Mana;
 		private float WMana = ObjectManager.Player.Spellbook.GetSpell(SpellSlot.W).SData.Mana;
 		private float RMana = ObjectManager.Player.Spellbook.GetSpell(SpellSlot.R).SData.Mana;
-		private float MyMana = Player.Instance.Mana;                                                            
+		private float MyMana = Player.Instance.Mana;
 		   public override bool ShouldBeExecuted()
         {
 		   	return !Player.HasBuff("pyromania_particle");
